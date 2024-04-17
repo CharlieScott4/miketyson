@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+    <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cambria:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<nav class="navigation-menu">
+    <div class="navigation-menu__overlay" onclick="toggleMenuClicked()"></div>
+    <button type="button" class="hamburger-menu" onclick="toggleMenuClicked()">
+      <span class="material-icons" id="open-icon">menu</span>
+      <span class="material-icons" id="close-icon">close</span>
+    </button>
+    <h1>Mike Tyson</h1>
+    <section class="navigation-menu__labels">
+      <button type="button"> <a href="https://www.youtube.com/watch?v=__rmRp6S-l8" >Post Fight Interview</a></button>
+         <button type="button"> <a href="https://www.youtube.com/watch?v=uVU_7ZAiYFY" >Best Knockouts</a></button>
+       <button type="button"> <a href="https://www.youtube.com/watch?v=ir01PM2LT-4">Crazy Punch Combo</a></button>
+    </section>
+  </nav>
+
+		<!-- MikeTyson text -->
+		<div class="row row2 text-center justify-content-center">
+			<div class="col-6 col2">
+				<h2>The Career Of Mike Tyson</h2>
+			</div>
+		</div>
+		<!-- GRAPH -->
+		<div class="container">
+			<div class="row row2 justify-content-center text-center">
+				<div class="col-12">
+					<div class="container">
+						<canvas id="myChart"></canvas>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="container">
+			<canvas id="myChart"></canvas>
+		</div>
+		<!-- Biography Title -->
+		<div class="row justify-content-center text-center">
+			<div class="col-1"></div>
+			<div class="col-4">
+				<h4>Biography</h4>
+			</div>
+			<div class="col-7"></div>
+		</div>
+
+		<!--SLIDESHOW-->
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<div class="col-12">
+					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="imgs/mike1.webp" class="img4" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="imgs/mike2.jpg" class="img4" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="imgs/mike3.jpg" class="img4" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- Biography TEXT -->
+			<div class="row row2 text-center">
+				<div class="col-1"></div>
+				<div class="col-10">
+					<h5>Mike Tyson, full name Michael Gerald Tyson, also known as Iron Mike,, was born on June 30, 1966, in
+						Brooklyn, New York. Mike Tyson is an American boxer who became the youngest heavyweight champion in history
+						at only 20 years old. At an early age Mike Tyson was in various street gangs until his boxing potential was
+						noticed by Bobby Stewart, he would then send him over to Cus D'Amato, who became his legal guardian and his
+						trainer. Tyson was short and squat being 5 feet 11 inches and weighed 218 pounds. He didn't appear as
+						intimidating to his opponents but he would quickly suprise them with his speed. Later on in his career he
+						was accused of rape and spent 1992-1995 in jail, once released he immediately returned to boxing. Tyson
+						retired in 2005 after his last professional fight on June 11, 2005, leaving him with 44 KO wins and 5 KO
+						losses.</h5>
+				</div>
+				<div class="col-1"></div>
+			</div>
+			<div class="row text-center justify-content-center">
+				<div class="col-4"><iframe src="https://www.youtube.com/embed/kknVfOJZ1w0" title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe></div>
+				<div class="col-4"><iframe src="https://www.youtube.com/embed/p6MYhU97MSY" title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe></div>
+				<div class="col-4"><iframe src="https://www.youtube.com/embed/lKKaMTQxP6U" title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe></div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+		<!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+	</div> <!-- closes container fluid -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/patternomaly/1.3.2/patternomaly.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
